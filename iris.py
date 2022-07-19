@@ -35,6 +35,7 @@ print(df.groupby("Species").size())
 ##Data visualization
 
 display(sns.pairplot(df, hue="Species", size=3, aspect=1))
+df.hist(edgecolor="red", linewidth=1.2, figsize=(12, 8));
 
 
 
